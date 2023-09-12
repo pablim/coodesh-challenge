@@ -1,0 +1,15 @@
+.NavBar {
+    background-color: silver;
+    width: 264px; 
+    padding: 8px;
+    
+    div {
+        .navLink {
+            background-color: #00000099;
+            > a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+}
