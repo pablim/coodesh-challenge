@@ -13,13 +13,12 @@ Este projeto é um challenge que possibilita o upload de um arquivo de transaç�
 ### Frontend
 
  - ReactJs 
- - react router 
- - axios 
- - sass 
+ - React Router 
+ - Axios 
+ - Sass 
  - Bootstrap
 
 ## Instalação e utilização
-Como instalar e usar o projeto (instruções)
 
 ### Requisitos 
 
@@ -44,5 +43,11 @@ Faça um clone do [projeto](https://github.com/pablim/coodesh-challenge) `git cl
 
 ### Utilizando o sistema
 
- 
-This is a challenge by [Coodesh](https://coodesh.com/) 
+- Acesse http://localhost:3000 ou clique em **login** na barra de navegação superior para fazer login com o Google.
+ ![login page](https://drive.google.com/file/d/14DHR0TrNFGz68sh_EIiGsuxa4nInyHx4/view?usp=drive_link)
+- Acesse http://localhost:3000/sendfile ou clique em **Send sales file** la lateral esquerda para enviar o arquivo com as transações de produtores/afiliados. ![send file page](https://drive.google.com/file/d/19hYzNKvYKNtuncQxgG4mcXkmRBwskagg/view?usp=sharing). Efetuando o envio o arquivo será processado e armazenado no banco de dados da aplicação. Uma resposta será retornada com os dados consolidados na mesma página. ![processed file](https://drive.google.com/file/d/1IRXtfuqIBeJ2632VzC3cpaks-A2UsLcL/view?usp=sharing)
+- Acesse http://localhost:3000/consolidated ou clique em **Consolidated data** para ver os dados consolidados novamente.
+![consolidated data page](https://drive.google.com/file/d/1rymCTRx-5Grdvs2cegrIW1yYmQulI3YN/view?usp=sharing) 
+
+> This is a challenge by [Coodesh](https://coodesh.com/)
+

@@ -6,6 +6,6 @@ import Login from './views/Login';
 
 export const paths = [
     { path: '/sendfile', element: <SendFile />, label: 'Send sales file' },
-    { path: '/consolidated', element: <Consolidated />, label: 'Consolidated' },
+    { path: '/consolidated', element: <Consolidated />, label: 'Consolidated data' },
     { path: '/', element: <Login />, label: 'Login' }
 ]
