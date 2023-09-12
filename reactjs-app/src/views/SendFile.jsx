@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { sendSalesFile } from "../api/services/Sales";
 import {Loader, Message, ResultTable} from "../components";
 
-export default function Home() {
+export default function SendFile() {
 	const { register, handleSubmit } = useForm();
 	const [loading, setLoading] = useState(false);
 	const [totalized, setTotalized] = useState();
