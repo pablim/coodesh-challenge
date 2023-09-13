@@ -1,13 +1,14 @@
 import React from "react"
 
-const GoogleLoginButton = ({clientId}) => {
+const GoogleLoginButton = ({clientId, callback}) => {
+
     return (
         <div>
             <div id="g_id_onload"
                 data-client_id={clientId}
                 data-context="signin"
                 data-ux_mode="popup"
-                data-login_uri="http://localhost:3000/home"
+                data-callback={callback}
                 data-auto_select="true"
                 data-itp_support="true">
             </div>

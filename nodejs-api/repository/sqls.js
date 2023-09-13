@@ -10,7 +10,7 @@ const querys = {
         },
         getValueByProdAndSeller: {
             name: "sales-totalizer",
-            text: "SELECT seller, product, SUM(value) AS amount FROM sales GROUP BY seller, product"
+            text: "SELECT seller, product, transaction_type, SUM(value) AS amount FROM sales GROUP BY seller, product, transaction_type order by seller, product"
         }
     }
 }
