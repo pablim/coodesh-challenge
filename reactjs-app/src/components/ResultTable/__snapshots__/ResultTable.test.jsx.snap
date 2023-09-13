@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reders tests Render ResultTable component 1`] = `
+<div>
+  <div
+    class="w-100"
+  >
+    <table
+      class="table table-hover table-striped table-dark"
+    >
+      <thead
+        class="table-light"
+      >
+        <tr>
+          <th>
+            Seller
+          </th>
+          <th>
+            Product
+          </th>
+          <th>
+            Transaction
+          </th>
+          <th>
+            Amount
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;

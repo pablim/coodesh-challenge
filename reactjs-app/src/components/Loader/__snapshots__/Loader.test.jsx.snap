@@ -1,15 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HorizontalScroll Component Render Loader component 1`] = `
-<div>
-  <div
-    class=""
-  >
-    carregando...
-  </div>
-</div>
-`;
-
 exports[`Reders tests Render Loader component 1`] = `
 <div>
   <div

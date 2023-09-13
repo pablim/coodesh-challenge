@@ -17,7 +17,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "prod": "NODE_ENV=production nodemon index.js",
-    "test": "jest --detectOpenHandles"
+    "test": "DBUSER=postgres DBHOST=localhost DATABASE=coodesh_challenge DBPASSWORD=123 DBPORT=5432 jest --detectOpenHandles "
   },
   "repository": {
     "type": "git",
