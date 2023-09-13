@@ -47,5 +47,10 @@ Faça um clone do [projeto](https://github.com/pablim/coodesh-challenge) `git cl
 - Acesse http://localhost:3000/sendfile ou clique em **Send sales file** la lateral esquerda para enviar o arquivo com as transações de produtores/afiliados. Efetuando o envio o arquivo será processado e armazenado no banco de dados da aplicação. Uma resposta será retornada com os dados consolidados na mesma página. 
 - Acesse http://localhost:3000/consolidated ou clique em **Consolidated data** para ver os dados consolidados novamente.
 
+## Apresentação
+
+- [Parte 1](https://www.loom.com/share/f621ea7e017043828b28398f7a93aca4?sid=b3a2f3e8-58ab-498c-9f33-85a3ea7642fd)
+- [Parte 2](https://www.loom.com/share/1bf6b149fa7244c6a0c6343f5cce1533?sid=e8ffe54f-4505-4fe6-bf02-01acbe7c6057)
+
 > This is a challenge by [Coodesh](https://coodesh.com/)
 
